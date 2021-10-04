@@ -1,0 +1,18 @@
+/* You can add global styles to this file, and also import other style files */
+
+$theme-colors: (
+  "primary": #6f42c1,
+  "secondary": #6c757d,
+  "success": #558b2f,
+  "info": #0277bd,
+  "light": #fafafa,
+  "dark": #343a40,
+);
+
+@import "~bootstrap";
+
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
+
+body {
+  background-color: theme-color("light");
+}
